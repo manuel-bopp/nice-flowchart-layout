@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 810 500" width="810" height="500" font-family="Helvetica, Arial, FreeSans, sans-serif">
+<defs><marker id="m" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#c3cad2"/></marker><marker id="o" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#e0a43a"/></marker></defs>
+<rect width="810" height="500" rx="18" fill="#111418"/>
+<text x="30" y="36" fill="#e6e9ec" font-size="17" font-weight="bold">Upload → validate → render → review → publish</text>
+<rect x="40" y="80" width="130" height="46" rx="6" fill="#1d232a" stroke="#8b96a3" stroke-width="1.5"/>
+<circle cx="50" cy="90" r="8" fill="#2b8fd6"/><text x="50" y="94" fill="#fff" font-size="10" font-weight="bold" text-anchor="middle">1</text>
+<text x="62" y="114" fill="#e6e9ec" font-size="13">Upload file</text>
+<rect x="176" y="92" width="140" height="46" rx="6" fill="#1d232a" stroke="#8b96a3" stroke-width="1.5"/>
+<circle cx="186" cy="102" r="8" fill="#2b8fd6"/><text x="186" y="106" fill="#fff" font-size="10" font-weight="bold" text-anchor="middle">2</text>
+<text x="198" y="126" fill="#e6e9ec" font-size="13">Validate format</text>
+<rect x="300" y="200" width="136" height="46" rx="6" fill="#1d232a" stroke="#8b96a3" stroke-width="1.5"/>
+<circle cx="310" cy="210" r="8" fill="#2b8fd6"/><text x="310" y="214" fill="#fff" font-size="10" font-weight="bold" text-anchor="middle">3</text>
+<text x="322" y="234" fill="#e6e9ec" font-size="13">Render preview</text>
+<rect x="150" y="270" width="150" height="46" rx="6" fill="#1d232a" stroke="#8b96a3" stroke-width="1.5"/>
+<circle cx="160" cy="280" r="8" fill="#2b8fd6"/><text x="160" y="284" fill="#fff" font-size="10" font-weight="bold" text-anchor="middle">4</text>
+<text x="172" y="304" fill="#e6e9ec" font-size="13">Automatic checks</text>
+<rect x="520" y="84" width="130" height="46" rx="6" fill="#1d232a" stroke="#8b96a3" stroke-width="1.5"/>
+<circle cx="530" cy="94" r="8" fill="#2b8fd6"/><text x="530" y="98" fill="#fff" font-size="10" font-weight="bold" text-anchor="middle">5</text>
+<text x="542" y="118" fill="#e6e9ec" font-size="13">Human review</text>
+<rect x="470" y="250" width="110" height="46" rx="6" fill="#1d232a" stroke="#8b96a3" stroke-width="1.5"/>
+<circle cx="480" cy="260" r="8" fill="#2b8fd6"/><text x="480" y="264" fill="#fff" font-size="10" font-weight="bold" text-anchor="middle">6</text>
+<text x="492" y="284" fill="#e6e9ec" font-size="13">Publish</text>
+<rect x="640" y="330" width="130" height="46" rx="6" fill="#1d232a" stroke="#8b96a3" stroke-width="1.5"/>
+<circle cx="650" cy="340" r="8" fill="#2b8fd6"/><text x="650" y="344" fill="#fff" font-size="10" font-weight="bold" text-anchor="middle">7</text>
+<text x="662" y="364" fill="#e6e9ec" font-size="13">Live on site</text>
+<rect x="330" y="420" width="130" height="46" rx="6" fill="#1d232a" stroke="#6cb4ee" stroke-width="1.5"/>
+<text x="352" y="454" fill="#e6e9ec" font-size="13">Asset store</text>
+<rect x="560" y="440" width="120" height="46" rx="6" fill="#1d232a" stroke="#6cb4ee" stroke-width="1.5"/>
+<text x="582" y="474" fill="#e6e9ec" font-size="13">Audit log</text>
+<line x1="171.97500000000008" y1="108.7" x2="175.67625000000004" y2="109.015" stroke="#c3cad2" stroke-width="2" marker-end="url(#m)"/>
+<line x1="175.49999999999994" y1="115.0" x2="170.21249999999998" y2="114.55" stroke="#e0a43a" stroke-width="2" marker-end="url(#o)"/>
+<text x="160.85624999999996" y="118.775" fill="#e0a43a" font-size="12">invalid</text>
+<line x1="273.45000000000005" y1="139.3" x2="341.99875" y2="199.9825" stroke="#c3cad2" stroke-width="2" marker-end="url(#m)"/>
+<text x="295.724375" y="173.64125" fill="#c3cad2" font-size="12">valid</text>
+<line x1="317.94999999999993" y1="247.50000000000003" x2="273.79875" y2="269.1125" stroke="#c3cad2" stroke-width="2" marker-end="url(#m)"/>
+<line x1="283.05000000000007" y1="268.5" x2="327.20125" y2="246.88750000000002" stroke="#c3cad2" stroke-width="2" marker-end="url(#m)"/>
+<text x="293.125625" y="261.69375" fill="#c3cad2" font-size="12">fail, retry max 3</text>
+<line x1="270.00000000000006" y1="269.75" x2="537.75" y2="131.41250000000002" stroke="#c3cad2" stroke-width="2" marker-end="url(#m)"/>
+<text x="391.875" y="204.58125" fill="#c3cad2" font-size="12">pass</text>
+<line x1="513.0" y1="106.4" x2="176.40000000000006" y2="103.595" stroke="#e0a43a" stroke-width="2" marker-end="url(#o)"/>
+<text x="332.70000000000005" y="108.9975" fill="#e0a43a" font-size="12">changes requested</text>
+<line x1="576.0" y1="131.90000000000003" x2="533.925" y2="248.30749999999998" stroke="#c3cad2" stroke-width="2" marker-end="url(#m)"/>
+<text x="542.9625" y="194.10375" fill="#c3cad2" font-size="12">approve</text>
+<line x1="579.0" y1="297.0" x2="651.4499999999999" y2="329.2" stroke="#c3cad2" stroke-width="2" marker-end="url(#m)"/>
+<line x1="257.175" y1="139.60000000000002" x2="381.2175" y2="412.65999999999997" stroke="#6cb4ee" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#m)"/>
+<text x="307.19624999999996" y="280.13" fill="#6cb4ee" font-size="12">original</text>
+<line x1="371.375" y1="250.50000000000003" x2="392.046875" y2="418.9375" stroke="#6cb4ee" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#m)"/>
+<text x="369.7109375" y="338.71875" fill="#6cb4ee" font-size="12">preview</text>
+<line x1="536.875" y1="296.75" x2="607.53125" y2="438.0625" stroke="#6cb4ee" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#m)"/>
+<text x="560.203125" y="371.40625" fill="#6cb4ee" font-size="12">release entry</text>
+</svg>

@@ -1,0 +1,13 @@
+flowchart TD
+    U[Upload file] --> V{Validate format}
+    V -- invalid --> U
+    V -- valid --> R[Render preview]
+    V -. original .-> S[(Asset store)]
+    R -. preview .-> S
+    R --> C{Automatic checks}
+    C -- "fail, retry max 3" --> R
+    C -- pass --> H[Human review]
+    H -- changes requested --> U
+    H -- approve --> P[Publish]
+    P -. release entry .-> A[(Audit log)]
+    P --> L([Live on site])
