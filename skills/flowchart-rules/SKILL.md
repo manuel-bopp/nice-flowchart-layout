@@ -143,3 +143,8 @@ given in heads so they survive scaling.
 4. **Rendering a library diagram (mermaid etc.) that cannot meet the binding rules is a
    hint, not an excuse:** rebuild it by hand when the diagram matters; keep the original
    source collapsible next to it so nothing the author wrote gets lost.
+5. **Text stays text** (2026-10-13). Every label is a real SVG `<text>` element, never
+   converted to paths/outlines and never baked into a raster. In HTML deliverables inline
+   the `<svg>` in the page instead of `<img src=…svg>` or a PNG, so the text stays
+   selectable, searchable and translatable. PNG only where the medium forces it (e.g.
+   README images on GitHub), with the SVG source committed next to it.

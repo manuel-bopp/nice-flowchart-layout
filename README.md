@@ -73,6 +73,8 @@ labels clear of every line; a legend and a numbered caption list inside the imag
 
 ![With the skill](examples/after-skill.png)
 
+The SVG sources in [`examples/`](examples/) keep the text selectable; GitHub shows images, so the README embeds PNGs.
+
 ## License
 
 [MIT](LICENSE)
